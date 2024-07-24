@@ -1,6 +1,5 @@
 <?php
   
-// //Delete the data in database
 include("connection.php");
  if(isset($_POST['delete'])){
    $email=$_POST['email'];
